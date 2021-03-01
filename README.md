@@ -1,10 +1,7 @@
-# onionsLibrary
-LUA Library for gamesense.pub
-
-## Vectors:
-#### 3D Creation: Vector3(x, y, z);
-#### 2D Creation: Vector2(x, y);
-#### Usage: vec:function();  
+## Vectors:<br/>
+#### 3D Creation: Vector3(x, y, z);<br/>
+#### 2D Creation: Vector2(x, y);<br/>
+#### Usage: vec:function();<br/>
   
 2D, 3D	vec:string() -- Obtains a string of vector values.  
 2D, 3D	vec:print() -- Prints the current values of a vector.  
@@ -20,8 +17,8 @@ LUA Library for gamesense.pub
   
   
   
-## Vector Functions:
-#### Usage: Vector.function(vars);  
+## Vector Functions:<br/>
+#### Usage: Vector.function(vars);<br/>
   
 **Vector.eq(Vector3, Vector3)** -- Equal 3D Vectors.  
 **Vector2D.eq(Vector2, Vector2)** -- Equal 2D Vectors.  
@@ -38,9 +35,9 @@ LUA Library for gamesense.pub
   
   
   
-## Colors:
-#### Creation: Color(r, g, b, a);
-#### Usage: col:function();  
+## Colors:<br/>
+#### Creation: Color(r, g, b, a);<br/>
+#### Usage: col:function();<br/>
   
 **col:get()** -- Returns all color values in subsequent order.  
 **col:r()** -- Returns the color's red value.  
@@ -52,8 +49,8 @@ LUA Library for gamesense.pub
   
   
   
-## Misc:
-#### Usage: function(vars);
+## Misc:<br/>
+#### Usage: function(vars);<br/>
   
 > Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
 **trace(Vector3, Vector3, entity)** -- Trace with more information.  
