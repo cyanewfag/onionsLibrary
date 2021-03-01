@@ -209,7 +209,7 @@ function Vector2D:length() -- Length of Vector2D x and y values, wikipedia.org/w
     return math.sqrt((self.x * self.x) + (self.y * self.y));
 end
 
-function Vector:length2D() -- Length of Vector x, y, and z values, wikipedia.org/wiki/Pythagorean_theorem
+function Vector:length() -- Length of Vector x, y, and z values, wikipedia.org/wiki/Pythagorean_theorem
     return math.sqrt((self.x * self.x) + (self.y * self.y) + (self.z * self.z));
 end
 
