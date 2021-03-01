@@ -1,10 +1,10 @@
 # onionsLibrary
 LUA Library for gamesense.pub
 
-##Vectors:  
-######3D Creation: Vector3(x, y, z);  
-######2D Creation: Vector2(x, y);  
-######Usage: vec:function();  
+## Vectors:  
+###### 3D Creation: Vector3(x, y, z);  
+###### 2D Creation: Vector2(x, y);  
+###### Usage: vec:function();  
   
 2D, 3D	vec:string() -- Obtains a string of vector values.  
 2D, 3D	vec:print() -- Prints the current values of a vector.  
@@ -20,8 +20,8 @@ LUA Library for gamesense.pub
   
   
   
-##Vector Functions:  
-######Usage: Vector.function(vars);  
+## Vector Functions:  
+###### Usage: Vector.function(vars);  
   
 **Vector.eq(Vector3, Vector3)** -- Equal 3D Vectors.  
 **Vector2D.eq(Vector2, Vector2)** -- Equal 2D Vectors.  
@@ -38,9 +38,9 @@ LUA Library for gamesense.pub
   
   
   
-##Colors:  
-######Creation: Color(r, g, b, a);  
-######Usage: col:function();  
+## Colors:  
+###### Creation: Color(r, g, b, a);  
+###### Usage: col:function();  
   
 **col:get()** -- Returns all color values in subsequent order.  
 **col:r()** -- Returns the color's red value.  
@@ -52,20 +52,20 @@ LUA Library for gamesense.pub
   
   
   
-##Misc:  
-######Usage: function(vars);  
+## Misc:  
+###### Usage: function(vars);  
   
-> -- Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
+> Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
 **trace(Vector3, Vector3, entity)** -- Trace with more information.  
   
-> -- Returns radian (number)  
+> Returns radian (number)  
 **degreesToRadians(degree)** -- Return Radians from degrees.  
   
-> -- Returns angle (number)  
+> Returns angle (number)  
 **fromAngle(angleX, angleY)** -- Get degrees from angle values.  
   
-> -- Returns position (Vector2), origin (Vector3)   
+> Returns position (Vector2), origin (Vector3)   
 **getAimTrace()** -- Gets vector location of crosshair trace.  
   
-> -- No Returns  
+> No Returns  
 **draw3DCircle(origin, radius, radius2, color, percent, outline, rotation)** -- Render a custom 3D circle ingame.  
