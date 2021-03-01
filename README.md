@@ -53,7 +53,7 @@ LUA Library for gamesense.pub
   
   
 ## Misc:
-#### Usage: function(vars);  
+#### Usage: function(vars);
   
 > Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
 **trace(Vector3, Vector3, entity)** -- Trace with more information.  
