@@ -52,17 +52,18 @@
 ## Misc:<br/>
 #### Usage: function(vars);<br/>
   
-> Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
 **trace(Vector3, Vector3, entity)** -- Trace with more information.  
+> Returns fraction (number), endHit (number -Entity Index), endVector (Vector3), hit (bool)  
   
-> Returns radian (number)  
 **degreesToRadians(degree)** -- Return Radians from degrees.  
+> Returns radian (number)  
   
 > Returns angle (number)  
 **fromAngle(angleX, angleY)** -- Get degrees from angle values.  
+> Returns angle (number)  
   
-> Returns position (Vector2), origin (Vector3)   
 **getAimTrace()** -- Gets vector location of crosshair trace.  
+> Returns position (Vector2), origin (Vector3)  
   
-> No Returns  
 **draw3DCircle(origin, radius, radius2, color, percent, outline, rotation)** -- Render a custom 3D circle ingame.  
+> No Returns  
